@@ -2,15 +2,15 @@ from openai import OpenAI
 import os
 import base64
 import streamlit as st
-api_key = os.getenv("openai_api_key")
+
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
 
-from dotenv import load_dotenv
-load_dotenv()
-api_key = os.getenv("openai_api_key")
-gmap_api = os.getenv("gmap_api")
+
+
+api_key = st.secrets["openai_api_key"]
+gmap_api = st.secrets["gmap_api"]
 import googlemaps
 from datetime import datetime
 
