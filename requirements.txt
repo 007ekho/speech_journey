@@ -2,7 +2,6 @@ streamlit
 os
 openai
 python-dotenv
-# from dotenv import load_dotenv
 base64
 langchain_core
 langchain
