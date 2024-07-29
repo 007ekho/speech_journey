@@ -1,9 +1,10 @@
 streamlit
 openai
-
 langchain_core
 langchain
 langchain_openai
 googlemaps
 datetime
-base64
+audio_recorder_streamlit
+streamlit_float
+
