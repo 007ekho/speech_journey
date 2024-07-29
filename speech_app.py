@@ -22,7 +22,9 @@ def initialize_session_state():
 
 initialize_session_state()
 
-st.title("OpenAI Conversational Chatbot 🤖")
+st.title("simplified voice journey planner Chatbot 🤖")
+st.warning('This is just a POC', icon="⚠️")
+st.write("At this time you have to speak clearly and in a quite place")
 
 # Create footer container for the microphone
 footer_container = st.container()
