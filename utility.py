@@ -15,7 +15,7 @@ import googlemaps
 from datetime import datetime
 
 #google api_key
-# gmap_api = 'AIzaSyAWzUhv5HqnC384WcC0ajI2c0eCRp3l2MI'
+
 #llm 
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0, openai_api_key=api_key)
 # client = OpenAI(api_key=api_key)
