@@ -23,7 +23,7 @@ def initialize_session_state():
 initialize_session_state()
 
 st.title("simplified voice journey planner Chatbot 🤖")
-st.warning('This is just a POC', icon="⚠️")
+st.warning('This is just a POC', icon=":sunglasses:")
 
 # Create footer container for the microphone
 footer_container = st.container()
